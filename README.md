@@ -109,12 +109,26 @@ Bash./mvnw spring-boot:run*(Приложение автоматически по
 
 src/main/java/com/example/learningplatform
 
-├── controller        # REST контроллеры (API Layer)
-├── dto               # Data Transfer Objects
-├── entity            # JPA сущности (Database Layer)
-├── repository        # DAO (доступ к БД)
-├── service           # Бизнес-логика
-├── Dockerfile        # Сборка Docker образа
-├── docker-compose.yml# Оркестрация приложения и БД
-└── LearningPlatformApplication.java
+
+## Описание файлов и папок проекта
+
+**.idea** — папка с файлами конфигурации среды разработки IntelliJ IDEA.
+
+**.mvn** — папка с файлами настройки Maven Wrapper для управления версиями Maven.
+
+**src** — исходный код проекта и ресурсы.
+
+**target** — папка с результатами сборки проекта (компилированные файлы, артефакты).
+
+**.gitattributes** — файл настройки поведения Git для данного репозитория.
+
+**.gitignore** — файл с правилами исключения файлов и папок из контроля версий Git.
+
+**HELP** — исходный текст (часто используется для документации или справки по проекту).
+
+**mvnw** — скрипт для запуска Maven в Unix-системах через Maven Wrapper.
+
+**mvnw.cmd** — скрипт для запуска Maven в Windows через Maven Wrapper.
+
+**pom.xml** — основной файл конфигурации Maven проекта, где описаны зависимости, плагины и настройки сборки.
 
